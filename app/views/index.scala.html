@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assets Sample</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="@routes.Assets.at("javascripts/coffee.js")"></script>
+    <script src="@routes.Assets.at("javascripts/Haxe.js")"></script>
+    <script src="@routes.Assets.at("javascripts/jsx.js")"></script>
+    <script>
+      $(function() {
+        JSX.require("jsx.jsx")._Main.main$();
+      });
+    </script>
+  </head>
+  <body>
+    <button id="coffee">Coffee</button>
+    <button id="haxe">Haxe</button>
+    <button id="jsx">JSX</button>
+  </body>
+</html>
