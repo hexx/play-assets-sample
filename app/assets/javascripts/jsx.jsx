@@ -1,6 +1,6 @@
 import "js.jsx";
 
-native __fake__ class jQuery {
+native class jQuery {
   function click(fn: function(): void) : void;
 }
 
