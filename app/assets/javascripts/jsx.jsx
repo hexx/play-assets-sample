@@ -1,7 +1,7 @@
 import "js.jsx";
 
 native class jQuery {
-  function click(fn: function(): void) : void;
+  function click(: function(): void) : void;
 }
 
 class _Main {
